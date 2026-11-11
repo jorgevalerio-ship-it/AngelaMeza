@@ -182,6 +182,17 @@
   audio.addEventListener("play", actualizarBoton);
   audio.addEventListener("pause", actualizarBoton);
 
+  // Pausar al salir del navegador o cambiar de pestaña, y reanudar al volver
+  let pausadaPorSalir = false;
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+      if (!audio.paused) { audio.pause(); pausadaPorSalir = true; }
+    } else if (pausadaPorSalir) {
+      pausadaPorSalir = false;
+      audio.play().catch(() => {}); // si el celular lo bloquea, se reanuda con el botón 🎵
+    }
+  });
+
   /* ---------- Abrir el regalo ---------- */
   const regalo = $("#regalo");
   regalo.addEventListener("click", () => {
