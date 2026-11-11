@@ -1,0 +1,41 @@
+🎈 PÁGINA DE CUMPLEAÑOS – INSTRUCCIONES 🎈
+
+QUÉ HAY EN LA CARPETA
+  index.html   -> la página (ábrela con doble clic para verla)
+  config.js    -> AQUÍ editas el nombre, tu firma, la edad, la fecha y el mensaje
+  estilos.css  -> colores y diseño (no hace falta tocarlo)
+  script.js    -> animaciones (no hace falta tocarlo)
+  fotos/       -> aquí van las 8 fotos
+  musica/      -> la canción (cancion.mp3)
+
+1) CAMBIAR EL NOMBRE Y LOS TEXTOS
+  - Abre config.js con el Bloc de notas (clic derecho > Abrir con > Bloc de notas).
+  - Cambia "Nombre de tu hermana" por su nombre y "Tu nombre" por el tuyo.
+  - Si quieres, cambia también los pies de foto o el mensaje.
+  - Solo cambia lo que está DENTRO de las comillas " ". No borres las comillas ni las comas.
+  - Guarda el archivo.
+
+2) PONER LAS FOTOS
+  - Copia tus 8 fotos dentro de la carpeta "fotos".
+  - Cámbiales el nombre así (en orden):
+        foto1.jpg, foto2.jpg, foto3.jpg ... foto8.jpg
+  - También sirven en .jpeg, .png o .webp (ej.: foto3.png).
+  - Si falta alguna, la página muestra un cuadro que dice dónde subirla.
+
+3) CAMBIAR LA CANCIÓN (opcional)
+  - Pon otro archivo MP3 en la carpeta "musica" y llámalo cancion.mp3.
+
+4) VERLA
+  - Doble clic en index.html. Toca el regalo para abrirlo: suena la música,
+    sale confeti y aparece la página.
+  - El botón 🎵 de abajo a la derecha pausa o reanuda la música.
+  - Las fotos se ven en grande al tocarlas.
+  - Al final hay un pastel: toca las velitas para soplarlas.
+
+5) ENVIÁRSELA COMO ENLACE O CÓDIGO QR
+  - Sube la carpeta completa a un hosting gratuito de páginas web
+    (por ejemplo Netlify Drop o GitHub Pages). Crea una cuenta gratis
+    para que el enlace no se borre.
+  - Con el enlace que te den, puedes crear un código QR en cualquier
+    generador de QR gratuito e imprimirlo en una tarjeta.
+  - Ojo: la página es pública para quien tenga el enlace.

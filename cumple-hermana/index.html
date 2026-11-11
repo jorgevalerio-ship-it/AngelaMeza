@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Feliz cumpleaños! 🎈</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- Globos que flotan en el fondo -->
+  <div id="globos" aria-hidden="true"></div>
+  <canvas id="confeti" aria-hidden="true"></canvas>
+
+  <!-- ============ PANTALLA DE INICIO (regalo) ============ -->
+  <section id="inicio">
+    <div class="inicio-contenido">
+      <p class="inicio-texto">Tienes una sorpresa…</p>
+      <button id="regalo" aria-label="Abrir el regalo">
+        <div class="tapa"><div class="mono"></div></div>
+        <div class="caja"></div>
+      </button>
+      <p class="inicio-pista">Toca el regalo para abrirlo 💝</p>
+    </div>
+  </section>
+
+  <!-- ============ PÁGINA PRINCIPAL ============ -->
+  <main id="principal" hidden>
+
+    <header class="portada">
+      <p class="saludo">¡Feliz cumpleaños!</p>
+      <h1 id="nombre"></h1>
+      <div class="edad" id="edad"></div>
+      <p class="fecha" id="fecha"></p>
+      <p class="estado" id="estado"></p>
+    </header>
+
+    <section class="tarjeta mensaje">
+      <h2>Para ti, con todo mi cariño 💌</h2>
+      <div id="mensaje"></div>
+      <p class="firma">Con todo mi amor,<br><span id="firma"></span></p>
+    </section>
+
+    <section class="galeria-seccion">
+      <h2>Tus Fotos y momentos que hemos compartido 📸</h2>
+      <div class="galeria" id="galeria"></div>
+    </section>
+
+    <section class="tarjeta pastel-seccion">
+      <h2>Pide un deseo ✨</h2>
+      <p class="pastel-pista" id="pastelPista">Toca las velitas para soplarlas</p>
+      <button class="pastel" id="pastel" aria-label="Soplar las velas">
+        <div class="velas">
+          <span class="vela"><i class="llama"></i></span>
+          <span class="vela"><i class="llama"></i></span>
+          <span class="vela"><i class="llama"></i></span>
+        </div>
+        <div class="piso piso-arriba"></div>
+        <div class="piso piso-abajo"></div>
+        <div class="plato"></div>
+      </button>
+    </section>
+
+    <footer>Hecho con 💗 solo para ti</footer>
+  </main>
+
+  <!-- Visor de fotos en grande -->
+  <div id="visor" hidden>
+    <button class="visor-cerrar" aria-label="Cerrar">×</button>
+    <button class="visor-flecha izq" aria-label="Foto anterior">‹</button>
+    <figure>
+      <img id="visorImg" alt="">
+      <figcaption id="visorPie"></figcaption>
+    </figure>
+    <button class="visor-flecha der" aria-label="Foto siguiente">›</button>
+  </div>
+
+  <!-- Botón de música -->
+  <button id="musicaBtn" hidden aria-label="Pausar o reproducir la música">🎵</button>
+  <audio id="musica" src="musica/cancion.mp3" loop preload="auto"></audio>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
