@@ -34,6 +34,7 @@ const CONFIG = {
     "Eres mi compañía, mi confidente y mi Amiga. Gracias por cada risa, cada abrazo y cada momento en que estuviste a mi lado, incluso cuando no hacía falta decir nada.",
     "Verte cumplir 25 años me llena el corazón de orgullo. Eres una mujer valiente, noble y hermosa por dentro y por fuera, y no sabes lo mucho que te admiro. Feliz cumpleaños, hermana. Que este nuevo año de vida te traiga infinitas alegrías y que todos tus sueños se hagan realidad.",
     "Deseo que este nuevo año te traiga salud, paz y todos esos sueños que guardas en el corazón. Que Dios te bendiga siempre y que nunca te falten motivos para sonreír.",
+    "Aunque muchas veces pelemos, discutimos, nos enojamos ajajja😂 pero a la final siempre estamos el uno para el otro🥹. Siempre me dices \"te la voy a notar jajaja\" y ya van un poco 🤭.",
     "Pase lo que pase, aquí voy a estar para ti. Te quiero con todo mi corazón. Aunque por mi forma de ser no siempre lo demuestre quiero que sepas que te quiero mucho y que eres importante en mi vida. ¡Feliz cumpleaños, hermana! 🎉",
     
   ]
